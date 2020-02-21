@@ -1,6 +1,8 @@
 os: linux
 language: generic
 script:
+    - chmod 777 scripts/link-format-chk.sh
+    - chomod 777 scripts/buildtable.pl
     - scripts/link-format-chk.sh
     - scripts/buildtable.pl >/tmp/table.mediawiki || exit 1
     - diff README.mediawiki /tmp/table.mediawiki | grep '^[<>] |' >/tmp/after.diff || true
