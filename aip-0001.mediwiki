@@ -1,0 +1,13 @@
+<pre>
+  BIP: 1
+  Layer: Consensus (soft fork)
+  Title: Exampe
+  Author: Leo Cornelius <leocornelius019@gmail.com>
+  Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/avrio-project/aips/wiki/Comments:AIP-0001
+  Status: Draft
+  Type: Standards Track
+  Created: 2019-02-21
+  License: CC-BY-SA-4.0
+  License-Code: MIT
+</pr>
